@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+/*css*/
+body {
+  /*background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(30, 54, 59, 1) 0%,
+    rgba(93, 93, 116, 1) 100%
+  );*/
+  background: url(bg.jpg) no-repeat center center fixed;
+  background-size: cover ;
+}
+
+.container {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+.container > form {
+  width: 53%;
+  border: 1px solid #dfdfdf;
+  padding: 20px;
+  border-radius: 10px;
+  background: #fff;
+}
+pre {
+  width: 70%;
+  color: #fff;
+  font-size: larger;
+}
+
+button {
+  background: #628cb1 !important;
+}
+p {
+  color: red;
+}
